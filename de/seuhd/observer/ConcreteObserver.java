@@ -5,7 +5,6 @@ import java.util.List;
 
 public class ConcreteObserver implements Observer {
     // DONE: Add fields and static variables.
-    // Observer can be attached to many subjects;
     private static int counter = 0;
     private final int id;
     private Subject attachedSubject;
